@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="src\AtmBank\AtmBank.csproj" />
+      <Content Include="src\BankMachineSystem.Application.Abstraction\Lab5.Application.Abstraction.csproj" />
+      <Content Include="src\BankMachineSystem.Application.Contracts\Lab5.Application.Contracts.csproj" />
+      <Content Include="src\BankMachineSystem.Application.Models\Lab5.Application.Models.csproj" />
+      <Content Include="src\BankMachineSystem.Application\Lab5.Application.csproj" />
+      <Content Include="src\BankMachineSystem.Application.DataAccess\Lab5.Infrastructure.DataAccess.csproj" />
+      <Content Include="src\BankMachineSystem.Presentation.Console\Lab5.Presentation.Console.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" Version="1.1.83" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0-preview-24080-01" />
+      <PackageReference Include="Moq" Version="4.20.70" />
+      <PackageReference Include="Spectre.Console" Version="0.48.1-preview.0.36" />
+      <PackageReference Include="xunit" Version="2.7.0" />
+    </ItemGroup>
+
+</Project>
